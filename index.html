@@ -12,6 +12,9 @@
               "primary-color": "var(--primary-color)",
               "white-color": "var(--white-color)",
               "black-color": "var(--black-color)"
+            },
+            fontFamily: {
+              custom: ['Figtree', 'sans-serif']
             }
           }
         }
@@ -25,15 +28,15 @@
     <title>Blog preview card</title>
   </head>
   <body class="bg-primary-color">
-    <main class="bg-white-color w-96 h-[520px] my-60 m-auto border-solid border-1 border-black-color rounded-xl shadow-xl shadow-black-color">
-      <section class="m-6 flex flex-col gap-2 py-6">
+    <main class="bg-white-color w-96 h-[540px] my-60 m-auto border-solid border-1 border-black-color rounded-xl shadow-xl shadow-black-color">
+      <section class="m-6 flex flex-col gap-2.5 py-6">
         <picture class="mb-4">
           <img class="rounded-xl" src="./assets/images/illustration-article.svg" alt="illustration-article">
         </picture>
         <button class="bg-primary-color text-black-color px-4 py-2 rounded-md font-semibold w-32">Learning</button>
         <h4>Published 21 Dec 2023</h4>
-        <h1 class="font-semibold">HTML &amp CSS foundations</h1>
-        <p>These languages are the backbone of every website, defining structure, content, and presentation.</p>
+        <h1 class="font-extrabold text-lg font-custom hover:text-primary-color">HTML &amp CSS foundations</h1>
+        <p class="font-extralight">These languages are the backbone of every website, defining structure, content, and presentation.</p>
         <ul class="flex flex-row items-center gap-4">
           <li><img src="./assets/images/image-avatar.webp" alt="Profile picture"></li>
           <li class="font-semibold">Greg Hooper</li>
